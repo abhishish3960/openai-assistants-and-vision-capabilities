@@ -1,1 +1,1 @@
-# image-and-openai-assistants-and-vision-capabilities
+# openai-assistants-and-vision-capabilities
