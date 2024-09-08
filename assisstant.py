@@ -1,5 +1,4 @@
 # from openai import OpenAI
-# client = OpenAI(api_key="sk-y4G_tgb1WZD2E4MHV1wrHQZcA3hyzDvCEhz6yE1noAT3BlbkFJzSssCQ2HiUb0d22CZslxhkBOC-O-K2sMLlBQ_qxBQA")
 
 # assistant = client.beta.assistants.create(
 #   name="Patent Attorney",
@@ -36,7 +35,7 @@
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key="sk-y4G_tgb1WZD2E4MHV1wrHQZcA3hyzDvCEhz6yE1noAT3BlbkFJzSssCQ2HiUb0d22CZslxhkBOC-O-K2sMLlBQ_qxBQA")
+client = OpenAI(api_key="your-api-key")
 
 def create_assistant():
     assistant = client.beta.assistants.create(

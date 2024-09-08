@@ -60,7 +60,7 @@ def main():
     image_urls, text_contents = fetch_data_from_api(api_url)
     
     # Initialize OpenAI client with your API key
-    client = OpenAI(api_key='sk-y4G_tgb1WZD2E4MHV1wrHQZcA3hyzDvCEhz6yE1noAT3BlbkFJzSssCQ2HiUb0d22CZslxhkBOC-O-K2sMLlBQ_qxBQA')
+    client = OpenAI(api_key='your-openai-api')
     
     # Prepare the initial messages for the OpenAI API
     messages = generate_messages(image_urls, text_contents)
